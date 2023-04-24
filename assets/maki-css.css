@@ -70,23 +70,16 @@ main{
     }
 
 #haiku1{
-    margin-left: 10%;
-
-
-
-    
+    margin-left: 10%; 
 }
 
 
 #haiku2{
     margin-left: 15%;
-  
 }
 
 #haiku3{
-    margin-left: 20%;
-   
-    
+    margin-left: 20%; 
 }
 
 .underline{
@@ -112,7 +105,7 @@ main{
     top: 0;
     left: 0;
     text-align: center;
-    font-family:  fantasy, sans-serif;
+    font-family: sans-serif;
     font-size: 40px;
     color: var(--ginger);
     background-color: var(--grey);
@@ -163,7 +156,7 @@ main{
     background-image: var(--gradiant);
     top: 0;
     left: 0;
-    font-family:  fantasy, sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
     text-align: center;
     color: var(--ginger);
@@ -228,29 +221,54 @@ main{
 
     #haiku1 {margin-left: 0%;
             font-size: 14px;
-            line-height: 40px;
-            padding-bottom: 20px;
+            line-height: 14px;
+            padding-bottom: 10px;
             padding-top: 20px;
     }
     #haiku2 {margin-left: 0%;
             font-size: 14px;
-            line-height: 40px;
-            padding-bottom: 20px;
+            line-height: 14px;
+            padding-bottom: 10px;
     }
     #haiku3 {margin-left: 0%;
             font-size: 14px;
-            line-height: 40px;
-            padding-bottom: 20px;
+            line-height: 14px;
+            padding-bottom: 10px;
     }
     .haiku {font-size: 22px;
     padding-bottom: 20px;
     margin-top: 0px;
+    line-height: 25px;
+    width:300%;
+    }
+
+    .card-section-header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: var(--ginger);
+    background-color: var(--grey);
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
     .card {
-        margin:2px;
+        
         margin-top: 10px;
         padding:2px;
+    }
+
+    .card-header{
+        font-size: 14px;
     }
 }
 
