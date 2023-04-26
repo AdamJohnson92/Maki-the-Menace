@@ -212,14 +212,14 @@ main{
 }
 
 @media screen and (max-width: 550px) {
-    body {
-        padding:5px;
-    }
     .page-title {
         font-size: 28px;
 
     }
 
+    .trading-cards {
+        margin: 12.5%;
+    }
 
     #haiku1 {margin-left: 0%;
             font-size: 14px;
@@ -240,7 +240,7 @@ main{
     .haiku {font-size: 22px;
     padding-bottom: 20px;
     padding-top: 40px;
-    margin-top: 0px;
+    margin-top: 30px;
     line-height: 2.5;
     width:300%;
     }
@@ -263,9 +263,14 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     }
-.card-list {
+
+    .card-list {
     padding: 0px;
-}
+    }
+    main {
+        padding:0;
+        justify-content: center;
+    }
 
     .card {
         margin-top: 10px;
