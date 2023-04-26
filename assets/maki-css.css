@@ -123,8 +123,6 @@ main{
 .card-list{
     border-top: 10px solid var(--ginger);
     background-image: linear-gradient(var(--grey) 0%, var(--silver) 50%, var(--grey) 100%);
-    padding: 30px;
-    padding-top: 30px solid var(--ginger);
     margin: 0;
     width: 100vw;
     display: flex;
@@ -225,25 +223,25 @@ main{
 
     #haiku1 {margin-left: 0%;
             font-size: 14px;
-            line-height: 14px;
+            line-height: 1.5;
             padding-bottom: 30px;
             padding-top: 60px;
     }
     #haiku2 {margin-left: 0%;
-            font-size: 14px;
-            line-height: 14px;
+            font-size: 2.5;
+            line-height: 2;
             padding-bottom: 30px;
     }
     #haiku3 {margin-left: 0%;
             font-size: 14px;
-            line-height: 14px;
+            line-height: 1.5;
             padding-bottom: 30px;
     }
     .haiku {font-size: 22px;
     padding-bottom: 20px;
     padding-top: 40px;
     margin-top: 0px;
-    line-height: 2;
+    line-height: 2.5;
     width:300%;
     }
 
@@ -265,10 +263,16 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     }
+.card-list {
+    padding: 0px;
+}
 
     .card {
-        
         margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .card-header{
