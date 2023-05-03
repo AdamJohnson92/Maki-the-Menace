@@ -8,4 +8,5 @@ var petMaki = function() {
     return;
 }
 
-petMaki();
+var petMakiBtn = document.querySelector(".page-title")
+petMakiBtn.addEventListener("click",petMaki);

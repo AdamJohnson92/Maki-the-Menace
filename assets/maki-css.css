@@ -32,6 +32,13 @@ body{
     padding-bottom: 50px;
 }
 
+.page-title:hover {
+    scale: 110%;
+    box-shadow: 20px 20px 20px silver;
+    cursor: pointer;
+}
+
+
 main{
     margin-left: 0px;
     padding: 20px;
