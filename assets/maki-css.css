@@ -226,22 +226,22 @@ main{
     }
 
     #haiku1 {margin-left: 0%;
-            font-size: 14px;
+            font-size: 19px;
             line-height: 1.5;
             padding-bottom: 30px;
             padding-top: 60px;
     }
     #haiku2 {margin-left: 0%;
-            font-size: 2.5;
+            font-size: 19px;
             line-height: 2;
             padding-bottom: 30px;
     }
     #haiku3 {margin-left: 0%;
-            font-size: 14px;
+            font-size: 19px;
             line-height: 1.5;
             padding-bottom: 30px;
     }
-    .haiku {font-size: 22px;
+    .haiku {font-size: 28px;
     padding-bottom: 20px;
     padding-top: 40px;
     margin-top: 30px;
@@ -269,7 +269,7 @@ main{
     }
 
     .card-list {
-    padding: 0px;
+    padding: 10px;
     }
     main {
         padding:0;
