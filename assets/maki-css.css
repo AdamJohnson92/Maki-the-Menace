@@ -48,7 +48,7 @@ main{
     border-radius: 50px;
     width: 45%;
     padding:20px 20px;
-    font-family: 'Segoe Script', fantasy;
+    font-family: 'Segoe Script', cursive;
     color: var(--ginger);
     font-size: 45px;
     display: flex;
@@ -59,7 +59,7 @@ main{
 #haiku1,
 #haiku2,
 #haiku3{
-    font-family: Lobster, Segoe Script, fantasy;
+    font-family: 'Segoe Script', cursive;
     font-style: italic;
     color: var(--ginger);
     font-size: 28px;
