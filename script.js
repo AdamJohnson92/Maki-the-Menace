@@ -1,3 +1,4 @@
+var cardEl = document.querySelectorAll(".card")
 var petMaki = function() {
     var petHer = window.confirm("Will you pet Maki and give her treats?")
     if (petHer) {

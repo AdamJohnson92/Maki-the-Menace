@@ -139,9 +139,21 @@ main{
     
 }
 
-.card{
-    background-color: none;
+.full-card{
     margin: 30px;
+    padding: 0;
+    width: 219px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px black;
+    transition: all 0.5s ease-in-out;
+}
+
+.card{
+    position:relative;
+    left:0;
+    top:0;
+    background-color: none;
     padding: 0;
     border: 2px solid black;
     width: 219px;
@@ -149,7 +161,22 @@ main{
     border-radius: 12px;
     box-shadow: 5px 5px 20px black;
     transition: all 0.5s ease-in-out;
+    z-index: 0;
 }
+
+/*.face-down{
+    position:absolute;
+    left:0;
+    top:0;
+    background-image: var(--gradiant);
+    padding: 0;
+    width: 219px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px black;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}*/
 
 .card:hover {
     scale: 140%;
@@ -213,7 +240,7 @@ main{
     padding-bottom: 20px;
     margin-top: 0px;
     }
-.card {
+.full-card {
         margin:5px;
         margin-top: 10px;
     }
@@ -283,12 +310,18 @@ main{
         justify-content: center;
     }
 
-    .card {
+    .full-card {
         margin-top: 10px;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 0;
+    }
+
+    .card {
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
     }
 
     .card-header{
