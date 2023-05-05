@@ -180,8 +180,8 @@ main{
     box-shadow: 5px 5px 20px black;
     transition: all 0.25s ease-in-out;
     z-index: 2;
-    font-size: 100px;
-    font-family:'Segoe Script', cursive;
+    font-size: 120px;
+    font-family:'Geraldine';
     color: var(--ginger);
     text-align: center;
     display:flex;
