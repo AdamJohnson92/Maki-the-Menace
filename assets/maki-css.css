@@ -58,31 +58,8 @@ main{
 
 }
 
-.pet-maki{
-    background-image: var(--gradiant);
-    margin: 50px;
-    border: 10px solid var(--ginger);
-    border-radius: 20px;
-    width: 45%;
-    padding:0;
-    font-family: sans-serif;
-    color: var(--ginger);
-    font-size: 45px;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.25;
-}
-
-#pet-maki-img{
-    width: 400px;
-    height: 475px;
-    border-radius: 12px;
-    margin: 20px;
-}
-
-#pet-maki-img:hover{
-    cursor: grab;
-    box-shadow: 10px 10px 10px silver;
+p{
+    margin:10px;
 }
 
 #haiku1,
@@ -114,6 +91,34 @@ main{
 .underline{
     text-decoration: underline;
 }
+
+.pet-maki{
+    background-image: var(--gradiant);
+    margin: 50px;
+    border: 10px solid var(--ginger);
+    border-radius: 20px;
+    width: 45%;
+    padding:0;
+    color: var(--ginger);
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+    align-items: center;
+}
+
+#pet-maki-img{
+    width: 400px;
+    height: 475px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+#pet-maki-img:hover{
+    cursor: grab;
+    box-shadow: 2px 2px 30px silver;
+}
+
 
 .trading-cards{
     width: 75%;
@@ -283,8 +288,13 @@ main{
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    .card-header{
+   /* .card-header{
         font-size: 16px;
+    }*/
+    #pet-maki-img{
+        width: 282.5px;
+        height: 375px;
+        margin: 20px;
     }
 }
 
@@ -366,6 +376,26 @@ main{
     .card-header{
         font-size: 14px;
     }
+    .pet-maki{
+        margin: 0px;
+        border: 10px solid var(--ginger);
+        border-radius: 20px;
+        width: 292.5px;
+        padding:0;
+        font-family: sans-serif;
+        color: var(--ginger);
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.25;
+    }
+
+    #pet-maki-img{
+        width: 282.5px;
+        height: 375px;
+        margin:2px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -379,24 +409,24 @@ main{
 
 
     #haiku1 {margin-left: 0%;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 20px;
             padding-bottom: 20px;
             padding-top: 20px;
     }
     #haiku2 {margin-left: 0%;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 20px;
             padding-bottom: 20px;
     }
     #haiku3 {margin-left: 0%;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 20px;
             padding-bottom: 20px;
     }
     .haiku {font-size: 20px;
     padding-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     }
 
     .section-header {
@@ -406,9 +436,17 @@ main{
     .card-list {
     padding: 0;
     }
-    .card {
-        margin:2px;
+
+    .full-card {
         margin-top: 10px;
-        padding:2px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
     }
+    .card {
+        margin:0px;
+        margin-top: 0px;
+        padding:0px;
+    }
+
 }
