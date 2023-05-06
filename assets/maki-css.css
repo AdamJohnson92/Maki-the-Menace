@@ -32,12 +32,6 @@ body{
     padding-bottom: 50px;
 }
 
-.page-title:hover {
-    scale: 110%;
-    box-shadow: 20px 20px 20px silver;
-    cursor: pointer;
-}
-
 
 main{
     margin-left: 0px;
@@ -52,7 +46,7 @@ main{
     background-image: var(--gradiant);
     margin: 50px;
     border: 10px solid var(--ginger);
-    border-radius: 50px;
+    border-radius: 20px;
     width: 45%;
     padding:20px 20px;
     font-family: 'Segoe Script', cursive;
@@ -62,6 +56,33 @@ main{
     flex-direction: column;
     line-height: 1.25;
 
+}
+
+.pet-maki{
+    background-image: var(--gradiant);
+    margin: 50px;
+    border: 10px solid var(--ginger);
+    border-radius: 20px;
+    width: 45%;
+    padding:0;
+    font-family: sans-serif;
+    color: var(--ginger);
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+
+#pet-maki-img{
+    width: 400px;
+    height: 475px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+#pet-maki-img:hover{
+    cursor: grab;
+    box-shadow: 10px 10px 10px silver;
 }
 
 #haiku1,
@@ -105,7 +126,7 @@ main{
     margin: 50px;
 }
 
-.card-section-header{
+.section-header{
     background-image: var(--gradiant);
     width: 100%;
     height: 50px;
@@ -142,7 +163,7 @@ main{
 
 .full-card{
     position: relative;
-    margin: 30px;
+    margin: 40px;
     padding: 0;
     width: 219px;
     height: 300px;
@@ -173,15 +194,15 @@ main{
     top:0;
     background-image: radial-gradient(black 0%, var(--grey) 50%, var(--silver) 100%);
     padding: 0;
-    width: 205px;
-    height: 288px;
+    width: 209px;
+    height: 292px;
     border-radius: 12px;
     border: 8px solid var(--ginger);
     box-shadow: 5px 5px 20px black;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease;
     z-index: 2;
     font-size: 120px;
-    font-family:'Geraldine';
+    font-family:'Gelato';
     color: var(--ginger);
     text-align: center;
     display:flex;
@@ -259,7 +280,8 @@ main{
     }
 .full-card {
         margin:5px;
-        margin-top: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .card-header{
         font-size: 16px;
@@ -277,19 +299,19 @@ main{
     }
 
     #haiku1 {margin-left: 0%;
-            font-size: 19px;
-            line-height: 1.5;
+            font-size: 22px;
+            line-height: 1.25;
             padding-bottom: 30px;
             padding-top: 60px;
     }
     #haiku2 {margin-left: 0%;
-            font-size: 19px;
-            line-height: 2;
+            font-size: 22px;
+            line-height: 1.5;
             padding-bottom: 30px;
     }
     #haiku3 {margin-left: 0%;
-            font-size: 19px;
-            line-height: 1.5;
+            font-size: 22px;
+            line-height: 1.25;
             padding-bottom: 30px;
     }
     .haiku {font-size: 28px;
@@ -300,7 +322,7 @@ main{
     width:300%;
     }
 
-    .card-section-header{
+    .section-header{
     width: 100%;
     height: 50px;
     text-align: center;
@@ -377,7 +399,7 @@ main{
     margin-top: 0px;
     }
 
-    .card-section-header {
+    .section-header {
         font-size: 30px;
     }
 
