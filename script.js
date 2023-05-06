@@ -1,13 +1,17 @@
 var petMakiBtn = document.querySelector("#pet-maki-img")
 //var cardEl = document.querySelectorAll(".card")
 var cardBackArray = document.querySelectorAll(".face-down")
-var petCounter = document.querySelector("#counter")
+var petStartCounter = document.querySelector("#counter")
+var petCounter = 0;
 
 var petMaki = function() {
+   
     var petHer = window.confirm("Will you pet Maki?")
     if (petHer) {
         window.alert("Maki is pleased.");
-
+        petCounter++;
+        console.log(petCounter)
+        petStartCounter.textContent = petCounter;
     } else {
         window.alert("Maki is displeased. You are in danger. Run.")
     }
